@@ -37,8 +37,8 @@ y_test_scaled = scaler_y.transform(y_test)
 # Define neural network architecture
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(256, activation='relu', input_shape=(6,)),   # 6 inputs (positions and orientations)
-    tf.keras.layers.Dense(512, activation='relu'),
-    tf.keras.layers.Dense(512, activation='relu'),  
+    tf.keras.layers.Dense(256, activation='relu'),
+    tf.keras.layers.Dense(256, activation='relu'),  
     tf.keras.layers.Dense(256, activation='relu'),
     tf.keras.layers.Dense(7)  # 7 outputs (q1 to q7)
 ])
