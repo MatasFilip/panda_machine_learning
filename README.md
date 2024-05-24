@@ -1,5 +1,7 @@
 # panda_machine_learning
 
+In this machine learning process, we utilize the PyBullet library for data collection, model training and testing, value prediction, and subsequent visualization of results through graphs. Each step is facilitated by individual Python scripts that sequentially handle the tasks.
+
 1. Data Collection (data.py):
 Utilizes the PyBullet library for data collection.
 Data is stored in the file panda_data2_30.csv.
