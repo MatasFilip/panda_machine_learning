@@ -51,7 +51,7 @@ def calculatePositionsAndOrientations(joint_angles):
     p.connect(p.DIRECT)
     p.setAdditionalSearchPath(pybullet_data.getDataPath())
     
-    # Load URDF model of the robotic arm (assuming it's named 'robot.urdf')
+    # Load URDF model of the robotic arm
     robot_id = p.loadURDF("franka_panda/panda.urdf")
 
     # Set joint angles
